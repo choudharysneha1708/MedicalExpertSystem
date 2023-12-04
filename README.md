@@ -1,14 +1,26 @@
 # MedicalExpertSystem
-## DataSet
-The main task of our project is to making dataset from scratch. we collected the data of 50 disease, which have total 92 symptoms, concentrated on respiratory ailments, encompassing post-COVID conditions and diseases associated with occurrences post-COVID.
-Additionally, common diseases and systemic ailments were integrated, broadening the dataset's scope. 
-Data set is marked with 0,1,2,3 this represent the probability levels of symptom manifestation within each disease profile. 
-In this project we are predicting probabilty of happening a disease.
-## Rule Based Implementation
+Welcome to the Medical Expert System project for disease prediction! This system is an interactive tool designed to assist in predicting diseases based on provided medical symptoms using Python and pandas library.
+# Overview
+This system utilizes a dataset (Data.csv) containing information about various diseases and their corresponding symptoms. The primary file MedicalExpertSystem.ipymb is a Jupyter Notebook containing the Python code for the Medical Expert System.
+## Code Overview
+****Loading Dataset:**** The system loads the dataset (Data.csv) using Pandas to extract disease-symptom relations.
+**Symptom Selection**: The user interface prompts questions regarding symptoms to identify potential diseases based on selected symptoms.
+****Probability Calculation****: The system calculates the probabilities of potential diseases based on selected symptoms.
+**Level of COVID-19 Assessment**: If relevant symptoms are selected, the system provides an assessment of the likelihood of having COVID-19 and suggests potential medications and supplements.
+# Getting Started
+To run the Medical Expert System, follow these steps:
+**1. Environment Setup:**
 
-In our rule-based implementation, we streamline the user experience by initially presenting the top 8 symptoms most frequently occurring across various diseases, sorted in order of prevalence. 
-With each user selection, if the choice aligns with any of these top symptoms, the subsequent iteration displays the top 8 symptoms associated with diseases featuring the chosen symptom. 
-This strategic approach effectively diminishes the search space by focusing on symptoms closely linked to the user's selections, progressively refining and narrowing down potential disease options.
-In our diagnostic system, we determine the likelihood of a user's ailment by computing probabilities associated with specific diseases, aiding in assessing the severity of their illness. 
-If any calculated probability exceeds or equals 0.5, we present the top 5 probabilities to the user. However, if all probabilities remain below this threshold, we display all potential probabilities. 
-This approach offers a comprehensive view of potential illnesses, providing users with crucial insights into the likelihood and severity of their condition for informed decision-making.
+Ensure you have Python installed on your system.
+Install Jupyter Notebook or use an environment like Google Colab.
+**2. Clone or Download the Repository:**
+
+Clone this repository to your local machine or download it as a zip file.
+**3. Upload Dataset:**
+
+Place the dataset file Data.csv in the root directory of the project.
+
+**4. Execute the Code:**
+
+Open and run the MedicalExpertSystem.ipymb Jupyter Notebook using Jupyter or Google Colab.
+Follow the instructions provided in the notebook to interact with the Medical Expert System.
