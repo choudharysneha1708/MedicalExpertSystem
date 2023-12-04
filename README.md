@@ -9,13 +9,16 @@ This system utilizes a dataset (Data.csv) containing information about various d
 **Level of COVID-19 Assessment**: If relevant symptoms are selected, the system provides an assessment of the likelihood of having COVID-19 and suggests potential medications and supplements.
 # Getting Started
 To run the Medical Expert System, follow these steps:
+
 **1. Environment Setup:**
 
 Ensure you have Python installed on your system.
 Install Jupyter Notebook or use an environment like Google Colab.
+
 **2. Clone or Download the Repository:**
 
 Clone this repository to your local machine or download it as a zip file.
+
 **3. Upload Dataset:**
 
 Place the dataset file Data.csv in the root directory of the project.
